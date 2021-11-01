@@ -320,7 +320,7 @@ header .container {
 /* End Services Section */
 
 /* Start Portfolio Section */
-.portfolio-items {
+.portfolio-content {
     margin-top: var(--m-top);
 }
 
@@ -489,12 +489,14 @@ header .container {
 .contact-info .social {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 
 .contact-info .social a {
     display: inline-block;
     margin-left: 15px;
+    font-size: 19px;
     color: var(--secondaryColor);
 }
 
@@ -505,7 +507,10 @@ header .container {
 @media (max-width: 767px) { 
     .contact-info .label,
     .contact-info .link {
-        font-size: 24px;
+        font-size: 22px;
+    }
+    .contact-info .social {
+        font-size: 16px;
     }
 }
 /* End Contact Section */
