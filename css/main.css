@@ -256,7 +256,7 @@ header .container {
     padding: var(--sectionPadding)
 }
 
-.services-items {
+.services-content {
     margin-top: var(--m-top);
 }
 
